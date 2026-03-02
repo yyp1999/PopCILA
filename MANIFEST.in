@@ -1,0 +1,5 @@
+# MANIFEST.in
+include LICENSE.txt
+recursive-include PopCILA/data *
+graft PopCILA/data
+#prune src/.ipynb_checkpoints
