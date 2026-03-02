@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# PopCILA
-A phenotype-guided multimodal framework for discovering and tracing intercellular signaling programs underlying population-level variation in complex traits.
-=======
 # 🧬 PopCILA
 
 **PopCILA** is a multimodal computational framework designed to decompose phenotype-associated intercellular signaling. Guided by diverse phenotypes, PopCILA identifies phenotype-associated signaling at population scale—beginning with ligand–receptor interactions and extendable to downstream transcriptional cascades—and then projects these signals onto single-cell or spatial data to pinpoint specific cellular actors and tissue niches and to resolve intercellular signaling events that underlie phenotypic variation.
@@ -31,8 +27,8 @@ This repository provides two end-to-end tutorials (two tracks):
 
 | Track | Notebook Link |
 |----------------|----------------|
-| Single-cell RNA-seq         | [🔗 View Tutorial](https://github.com/yyp1999/PopCILA/blob/main/tutorial/PopCILA for Single-Cell RNA-seq.ipynb) |
-| Spatial Transcriptomics         |  [🔗 View Tutorial](https://github.com/yyp1999/PopCILA/blob/main/tutorial/PopCILA for Spatial Transcriptomics.ipynb) |
+| Single-cell RNA-seq         | [🔗 View Tutorial](https://github.com/yyp1999/PopCILA/blob/main/tutorial/PopCILA_for_Single-Cell_RNA-seq.ipynb) |
+| Spatial Transcriptomics         |  [🔗 View Tutorial](https://github.com/yyp1999/PopCILA/blob/main/tutorial/PopCILA_for_Spatial_Transcriptomics.ipynb) |
 > 💡 Tip: The notebooks are written to be self-contained. Follow the sections in order within each notebook.
 
 
@@ -47,4 +43,3 @@ If you use **PopCILA** in your research, please consider citing our paper (comin
 - Maintainer: Youpeng Yang
 - Email: yangyp33@alumni.sysu.edu.cn
 - Issues: Please open a GitHub Issue (recommended)
->>>>>>> afb5341 (commit)
