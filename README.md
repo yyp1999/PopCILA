@@ -9,13 +9,35 @@ PopCILA supports multiple phenotype types, including **binary**, **continuous**,
 
 ## 🧩 System requirements
 
-PopCILA version 1.0.0 requires Python 3.8 or later and is distributed as
+PopCILA requires Python 3.8 or later and is distributed as
 a platform-independent Python package.
 
-The principal dependencies are pandas, NumPy, Matplotlib, scikit-learn,
-SciPy, seaborn, statsmodels, Plotly, IPython, Scanpy, qnorm, PyTorch,
-Numba, AnnData, adjustText, PyComplexHeatmap, libpysal,
-Squidpy, esda, tqdm, and NetworkX.
+PopCILA has been successfully tested on Ubuntu 24.04.4 LTS, Windows 10 (64-bit) and macOS 26.5 (arm64). Typical installation time is approximately 5-15 minutes on a standard desktop computer with a stable internet connection.
+
+The principal dependency versions used in this tested environment were:
+
+- pandas 2.2.3
+- NumPy 1.26.4
+- Matplotlib 3.10.1
+- scikit-learn 1.5.2
+- SciPy 1.15.2
+- seaborn 0.13.2
+- statsmodels 0.14.4
+- Plotly 6.3.0
+- IPython 8.30.0
+- Scanpy 1.11.0
+- qnorm 0.9.0
+- PyTorch 2.6.0
+- Numba 0.61.0
+- AnnData 0.11.4
+- openchord 0.1.7
+- adjustText 1.3.0
+- PyComplexHeatmap 1.8.2
+- libpysal 4.13.0
+- Squidpy 1.6.5
+- esda 2.7.0
+- tqdm 4.67.1
+- NetworkX 3.4.2
 
 The `openchord` dependency is optional and only required for chord diagrams.
 
