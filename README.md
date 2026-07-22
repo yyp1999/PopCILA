@@ -7,7 +7,17 @@ PopCILA supports multiple phenotype types, including **binary**, **continuous**,
 ![Overview](https://github.com/yyp1999/PopCILA/blob/main/PopCILA.jpg)
 
 
+## 🧩 System requirements
 
+PopCILA version 1.0.0 requires Python 3.8 or later and is distributed as
+a platform-independent Python package.
+
+The principal dependencies are pandas, NumPy, Matplotlib, scikit-learn,
+SciPy, seaborn, statsmodels, Plotly, IPython, Scanpy, qnorm, PyTorch,
+Numba, AnnData, openchord, adjustText, PyComplexHeatmap, libpysal,
+Squidpy, esda, tqdm, and NetworkX.
+
+No non-standard hardware is required. A GPU is not required.
 
 ## 🔧 Installation
 
@@ -17,7 +27,6 @@ PopCILA is implemented in Python 3 and can be installed via:
 ```bash
 pip install popcila
 ```
-
 
 ## 📘 Usage Guide
 
@@ -31,6 +40,9 @@ This repository provides two end-to-end tutorials (two tracks):
 | Spatial Transcriptomics         |  [🔗 View Tutorial](https://github.com/yyp1999/PopCILA/blob/main/tutorial/PopCILA_for_Spatial_Transcriptomics.ipynb) |
 > 💡 Tip: The notebooks are written to be self-contained. Follow the sections in order within each notebook.
 
+## 📦 Toy Dataset
+
+You can download the example dataset for tutorials here: [https://drive.google.com/drive/folders/17RgFhzNYNzFHYUq1Oo0bjhOZDNkfUtff?usp=sharing](https://drive.google.com/drive/folders/17RgFhzNYNzFHYUq1Oo0bjhOZDNkfUtff?usp=sharing)
 
 ## ✨ Citation
 
