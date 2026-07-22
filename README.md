@@ -14,8 +14,10 @@ a platform-independent Python package.
 
 The principal dependencies are pandas, NumPy, Matplotlib, scikit-learn,
 SciPy, seaborn, statsmodels, Plotly, IPython, Scanpy, qnorm, PyTorch,
-Numba, AnnData, openchord, adjustText, PyComplexHeatmap, libpysal,
+Numba, AnnData, adjustText, PyComplexHeatmap, libpysal,
 Squidpy, esda, tqdm, and NetworkX.
+
+The `openchord` dependency is optional and only required for chord diagrams.
 
 No non-standard hardware is required. A GPU is not required.
 
@@ -26,6 +28,12 @@ PopCILA is implemented in Python 3 and can be installed via:
 
 ```bash
 pip install popcila
+```
+
+To use `PopCILA.cci_chord`, install the optional chord dependency:
+
+```bash
+pip install 'popcila[chord]'
 ```
 
 ## 📘 Usage Guide

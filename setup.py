@@ -1,5 +1,4 @@
-from setuptools import setup, find_packages
-from setuptools import find_namespace_packages
+from setuptools import setup
 
 setup(
     name='popcila',
@@ -9,7 +8,8 @@ setup(
     url='https://github.com/yyp1999/PopCILA', 
     description='Population-level Complex Phenotypic Intercellular signaling Linkage Analyzer', 
     long_description='A multimodal computational framework designed to decompose phenotype-associated intercellular signaling. Guided by diverse phenotypes, PopCILA identifies phenotype-associated signaling at population scale—beginning with ligand–receptor interactions and extendable to downstream transcriptional cascades—and then projects these signals onto single-cell or spatial data to pinpoint specific cellular actors and tissue niches and to resolve intercellular signaling events that underlie phenotypic variation.',
-    packages=find_packages(),
+    packages=['PopCILA'],
+    package_dir={'PopCILA': 'src'},
     install_requires=[
         'pandas',
         'numpy',
@@ -25,7 +25,6 @@ setup(
         'torch',
         'numba',
         'anndata',
-        'openchord',
         'adjustText',
         'PyComplexHeatmap',
         'libpysal',
@@ -33,7 +32,10 @@ setup(
         'esda',
         'tqdm',
         'networkx',
-    ], 
+    ],
+    extras_require={
+        'chord': ['openchord'],
+    },
     classifiers=[
         'Development Status :: 5 - Production/Stable',  
         'Intended Audience :: Science/Research',  
