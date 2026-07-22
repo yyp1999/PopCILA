@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='popcila',
-    version='1.0.0',
+    version='1.0.1',
     author='Youpeng Yang',
     author_email='yypeng1999@gmail.com', 
     url='https://github.com/yyp1999/PopCILA', 
