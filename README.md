@@ -55,7 +55,7 @@ pip install popcila
 To use `PopCILA.cci_chord`, install the optional chord dependency:
 
 ```bash
-pip install 'popcila[chord]'
+pip install popcila[chord]
 ```
 
 ## 📘 Usage Guide
