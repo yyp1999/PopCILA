@@ -1,4 +1,8 @@
+from pathlib import Path
 from setuptools import setup
+
+HERE = Path(__file__).parent
+README = (HERE / "README.md").read_text(encoding="utf-8")
 
 setup(
     name='popcila',
@@ -7,7 +11,8 @@ setup(
     author_email='yypeng1999@gmail.com', 
     url='https://github.com/yyp1999/PopCILA', 
     description='Population-level Complex Phenotypic Intercellular signaling Linkage Analyzer', 
-    long_description='A multimodal computational framework designed to decompose phenotype-associated intercellular signaling. Guided by diverse phenotypes, PopCILA identifies phenotype-associated signaling at population scale—beginning with ligand–receptor interactions and extendable to downstream transcriptional cascades—and then projects these signals onto single-cell or spatial data to pinpoint specific cellular actors and tissue niches and to resolve intercellular signaling events that underlie phenotypic variation.',
+    long_description=README,
+    long_description_content_type="text/markdown",
     packages=['PopCILA'],
     package_dir={'PopCILA': 'src'},
     install_requires=[
