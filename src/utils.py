@@ -2362,7 +2362,7 @@ def cci_chord(adata:anndata.AnnData,interaction_edges:pd.DataFrame,
     except ImportError as exc:
         raise ImportError(
             "cci_chord requires the optional 'openchord' dependency. "
-            "Install it with `pip install 'popcila[chord]'`."
+            "Install it with `pip install popcila[chord]`."
         ) from exc
     data=interaction_edges.loc[interaction_edges['COUNT']>count_min].iloc[:,:2]
     data = list(itertools.chain.from_iterable((i, i[::-1]) for i in data.values))
