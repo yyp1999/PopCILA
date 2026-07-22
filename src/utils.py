@@ -2357,7 +2357,13 @@ def cci_chord(adata:anndata.AnnData,interaction_edges:pd.DataFrame,
                       fontsize=12,padding=80,radius=100,save='chord.svg',
                       rotation=0,bg_color = "#ffffff",bg_transparancy = 1.0):
     import itertools
-    import openchord as ocd
+    try:
+        import openchord as ocd
+    except ImportError as exc:
+        raise ImportError(
+            "cci_chord requires the optional 'openchord' dependency. "
+            "Install it with `pip install 'popcila[chord]'`."
+        ) from exc
     data=interaction_edges.loc[interaction_edges['COUNT']>count_min].iloc[:,:2]
     data = list(itertools.chain.from_iterable((i, i[::-1]) for i in data.values))
     matrix = pd.pivot_table(
