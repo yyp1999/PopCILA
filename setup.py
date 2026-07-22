@@ -6,7 +6,7 @@ README = (HERE / "README.md").read_text(encoding="utf-8")
 
 setup(
     name='popcila',
-    version='1.0.1',
+    version='1.0.2',
     author='Youpeng Yang',
     author_email='yypeng1999@gmail.com', 
     url='https://github.com/yyp1999/PopCILA', 

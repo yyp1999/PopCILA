@@ -23,7 +23,7 @@ def filter_Bulkdata(bulk_data, lr_db_path=None, threshold=0, log=False):
     """
     # If lr_db_path is not specified, use the default database in the package
     if lr_db_path is None:
-        with importlib.resources.path("Chunk.data", "Human-2020-Cabello-Aguilar-LR-pairs.csv") as default_path:
+        with importlib.resources.path("PopCILA.data", "Human-2020-Cabello-Aguilar-LR-pairs.csv") as default_path:
             lr_db_path = default_path
 
     # Filter by average gene expression
