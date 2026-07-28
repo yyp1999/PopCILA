@@ -1,6 +1,6 @@
 # 🧬 PopCILA
 
-**PopCILA** is a multimodal computational framework designed to decompose phenotype-associated intercellular signaling. Guided by diverse phenotypes, PopCILA identifies phenotype-associated signaling at population scale—beginning with ligand–receptor interactions and extendable to downstream transcriptional cascades—and then projects these signals onto single-cell or spatial data to pinpoint specific cellular actors and tissue niches and to resolve intercellular signaling events that underlie phenotypic variation.
+**PopCILA** is a multimodal computational framework designed to discover and trace phenotype-associated intercellular signaling. Guided by diverse phenotypes, PopCILA identifies phenotype-associated signaling at population scale—beginning with ligand–receptor interactions and extendable to downstream transcriptional cascades—and then projects these signals onto single-cell or spatial context to pinpoint specific cellular actors and tissue niches and to resolve intercellular signaling events that underlie phenotypic variation.
 
 PopCILA supports multiple phenotype types, including **binary**, **continuous**, **ordinal**, and **right-censored survival** outcomes.
 
